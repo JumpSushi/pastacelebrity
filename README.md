@@ -9,4 +9,4 @@ Enjoy the pasta-filled web experience!
 
 
 Download the extension here!
-[https://github.com/JumpSushi/pastacelebrity/releases/tag/V1](url)
+[https://github.com/JumpSushi/pastacelebrity/releases/tag/V1]((https://github.com/JumpSushi/pastacelebrity/releases/tag/V1))
