@@ -1,5 +1,6 @@
+/* Style for body and text */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
   }
   
   h1 {
@@ -7,19 +8,20 @@ body {
     text-align: center;
   }
   
-  button {
+  /* Style for buttons with a specific class (extension-only buttons) */
+  .extension-button {
     display: block;
     margin: 20px auto;
     padding: 10px;
     font-size: 16px;
-    background-color: #ff6347;
+    background-color: #ffffff;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
   }
   
-  button:hover {
-    background-color: #e5533f;
+  /* Hover effect for extension-only buttons */
+  .extension-button:hover {
+    background-color: #fbfbfb;
   }
-  

@@ -2,51 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, width=device-width">
   <title>Pasta Celebrity Swapper</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>Pasta Celebrity Swapper</h1>
-  <p>Click to activate or deactivate the swapping of celebrity names with pasta!</p>
-  <button id="toggleSwap">Activate Swap</button>
-
-  <script>
-    // Initialize a variable to track the swap state
-    let isSwapActive = false;
-
-    document.getElementById('toggleSwap').addEventListener('click', function() {
-      if (isSwapActive) {
-        deactivateSwap();
-      } else {
-        activateSwap();
-      }
-    });
-
-    // Function to activate the swap
-    function activateSwap() {
-      chrome.tabs.executeScript({
-        file: 'content.js'
-      }, function() {
-        if (chrome.runtime.lastError) {
-          console.error(chrome.runtime.lastError);
-        }
-      });
-      document.getElementById('toggleSwap').textContent = 'Deactivate Swap';
-      isSwapActive = true;
-    }
-
-    function deactivateSwap() {
-      chrome.tabs.executeScript({
-        code: 'document.body.innerHTML = document.body.innerHTML;' // Reset to original HTML to "deactivate"
-      }, function() {
-        if (chrome.runtime.lastError) {
-          console.error(chrome.runtime.lastError);
-        }
-      });
-      document.getElementById('toggleSwap').textContent = 'Activate Swap';
-      isSwapActive = false;
-    }
-  </script>
+  <p>This extension swaps celebrity names with pasta names across any website you visit. Because pasta is simply superior!</p>
+  <p>Simply install the extension, and watch the magic happen. All celebrity names on the page will be replaced with random pasta names, and images related to celebrities will be swapped with pasta images!</p>
+  <p>Enjoy the pasta-filled web experience!</p>
 </body>
 </html>
