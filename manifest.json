@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Pasta Celebrity Swapper",
+    "description": "Swapping celebrity names with pasta, because pasta is superior",
+    "version": "1.0",
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon1.jpg",
+        "48": "icons/icon2.jpg",
+        "128": "icons/icon3.jpg"
+      }
+    },
+    "icons": {
+      "16": "icons/icon1.jpg",
+      "48": "icons/icon2.jpg",
+      "128": "icons/icon3.jpg"
+    }
+  }
+  
