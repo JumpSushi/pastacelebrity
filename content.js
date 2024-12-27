@@ -1,4 +1,4 @@
-// Full celebrity list
+// Full celebrity list WHY IS THE FORMATTING WEIRD ON THE PAGE
 const celebrities = [
     'Brad Pitt', 'Emma Watson', 'Leonardo DiCaprio', 'Angelina Jolie', 'Johnny Depp',
     'Scarlett Johansson', 'Taylor Swift', 'Elon Musk', 'Donald Trump', 'Joe Biden',
