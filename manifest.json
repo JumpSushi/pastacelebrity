@@ -22,10 +22,6 @@
         "16": "icons/1.png",
         "48": "icons/2.png",
         "128": "icons/3.png"
-      },
-      "default_popup_size": {
-        "width": 800,
-        "height": 600
       }
     },
     "icons": {
